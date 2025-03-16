@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Per_Diem",
+    "slug": "Per_Diem",
+    "version": "1.0.0",
+    "scheme": "perdiem",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.imranshah10140.Per_Diem"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c42b51d9-be75-438d-83be-ac0853d112c4"
+      }
+    }
+  }
+}

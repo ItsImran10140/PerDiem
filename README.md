@@ -1,0 +1,46 @@
+# Per Diem App
+
+## Environment Setup
+
+This project uses environment variables for sensitive information. Before running the app, you need to set up your environment:
+
+1. Create a `.env` file in the root directory
+2. Add the following variables to your `.env` file:
+
+```
+# Google Sign-In
+GOOGLE_WEB_CLIENT_ID=your_google_web_client_id
+
+# Firebase Configuration
+FIREBASE_API_KEY=your_firebase_api_key
+FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+FIREBASE_PROJECT_ID=your_firebase_project_id
+FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+FIREBASE_APP_ID=your_firebase_app_id
+FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
+```
+
+**Note:** Never commit your `.env` file to version control. It's already added to `.gitignore`.
+
+### Firebase Admin SDK
+
+If you need to use the Firebase Admin SDK:
+
+1. Download your service account key from the Firebase Console
+2. Save it as `firebase-adminsdk.json` in the project root
+3. This file is already added to `.gitignore` to prevent accidental commits
+
+## Installation
+
+```bash
+npm install
+```
+
+## Running the App
+
+```bash
+npm start
+```
+
+Then follow the instructions to run on your preferred platform. 
