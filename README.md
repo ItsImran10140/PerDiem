@@ -31,6 +31,10 @@ If you need to use the Firebase Admin SDK:
 2. Save it as `firebase-adminsdk.json` in the project root
 3. This file is already added to `.gitignore` to prevent accidental commits
 
+   The Application is created for android only for now because I have windows system and please check it on android.
+
+   create a google-services.json file and past the code i have sended to you.
+
 ## Installation
 
 ```bash
@@ -42,5 +46,13 @@ npm install
 ```bash
 npm start
 ```
+and then press s to expo go and run the application.
+
+you can also use npm run android command
+
+```bash
+npm run android
+```
+
 
 Then follow the instructions to run on your preferred platform. 
