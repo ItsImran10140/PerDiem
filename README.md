@@ -52,6 +52,9 @@ and then press s to expo go and run the application.
 I have created the bottom sheet from the scratch to avoid dependency fail in build I have faced and for state persistence I have used React Context so the application be light and fast.
 rest of the things were easy and straight forward.
 
+## Demo Video
+<a id='https://www.loom.com/share/cd02202206284267bf4a7158074898d1?sid=7dd1788a-df85-481e-ac48-204a8063f95d'></a>
+
 you can also use npm run android command
 
 ```bash
